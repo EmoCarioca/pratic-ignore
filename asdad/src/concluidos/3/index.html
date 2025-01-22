@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-950 w-screen h-screen">
+    <h1 class="mt-2 text-center flex justify-center text-[30px] text-white font-bold">SISTEMA DE LOGIN</h1>
+    <div class="flex justify-center items-center">
+        <div class="w-full max-w-[500px]">
+
+            <div class="mx-2 my-6">
+                <label for="login" class="text-white my-2" htmlFor="emailField">Login</label>
+                <input type="email" id="email"
+                    class="block outline-none bg-gray-800 font-bold border border-gray-600 focus:outline-yellow-500 w-full max-w-[500px] rounded-sm p-2 "
+                    placeholder="Digite seu login">
+            </div>
+            <div class="mx-2 my-6">
+                <label for="fk" class="text-white my-2" htmlFor="passwordField">Senha</label>
+                <input type="password" id="fk" placeholder='Sua senha' name="senha"
+                    class="block outline-none font-bold bg-gray-800 w-full mt-1 border border-gray-600 rounded-sm p-2 focus:outline-yellow-500 ">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-full flex flex-col items-center">
+        <button class="focus:outline-yellow-500 py-2 px-6 w-full max-w-[325px] mt-2 bg-white rounded font-bold text-gray-900">Entrar</button>
+        <p class="text-gray-300 mt-4">Não é membro? <a href="" class="text-yellow-500">Faça seu cadastro agora</a></p>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
